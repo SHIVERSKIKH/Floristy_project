@@ -1,4 +1,5 @@
 # Floristy_project
+Сайт в разработке! 
 
 ---
 - Адаптивная верстка -> [перейти на сайт](https://shiverskikh.github.io/Floristy_project/)
