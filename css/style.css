@@ -20,6 +20,7 @@ html {
 
 img {
   caret-color: transparent;
+  width: 100%;
 }
 
 a {
@@ -361,4 +362,125 @@ body {
   border: 1px solid rgba(255, 255, 255, 0.20);
   top: 22px;
   left: 22px;
+}
+.composition {
+  background: #3B181E;
+  padding-bottom: 246px;
+}
+.composition__img {
+  max-width: 1000px;
+  width: 100%;
+  min-height: 855px;
+  position: relative;
+}
+.composition__img::after {
+  content: "";
+  position: absolute;
+  max-width: 996px;
+  width: 100%;
+  min-height: 801px;
+  border: 1px solid rgba(255, 255, 255, 0.20);
+  top: 25px;
+  left: 34px;
+}
+.composition__wrp {
+  max-width: 1728px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.composition__info-title {
+  max-width: 513px;
+  width: 100%;
+  font-size: 50px;
+  line-height: 55px;
+  letter-spacing: 4.5px;
+  text-transform: uppercase;
+  margin-bottom: 56px;
+  font-weight: 400;
+  position: relative;
+}
+.composition__info-title::after {
+  content: "";
+  position: absolute;
+  width: 85.5px;
+  height: 2px;
+  background: #FFF;
+  left: 0;
+  top: 151px;
+}
+.composition__info-wrapper {
+  max-width: 614px;
+  width: 100%;
+}
+.composition__info-txt {
+  max-width: 614px;
+  width: 100%;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px; 
+  margin-bottom: 30px;
+}
+.composition__info-link {
+  display: flex;
+  width: 135px;
+  height: 50px;
+  color: #FFF;
+  font-size: 12px;
+  line-height: 13px;
+  letter-spacing: 1.8px;
+  text-transform: uppercase;
+  border: 1px solid #FFF;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+.composition__info-list {
+  max-width: 555px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.composition__info-image {
+  width: 123px;
+  height: 123px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.composition-image1 {
+  background: url(../img/composition1.jpg);
+}
+.composition-image2 {
+  background: url(../img/composition2.jpg);
+}
+.composition-image3 {
+  background: url(../img/composition3.jpg);
+}
+.composition-image4 {
+  background: url(../img/composition4.jpg);
+}
+.cards {
+  background: #3B181E;
+  padding-bottom: 271px;
+}
+.cards__title {
+  max-width: 302px;
+  width: 100%;
+  font-size: 30px;
+  line-height: 33px;
+  letter-spacing: 1.8px;
+  text-transform: uppercase;
+  position: relative;
+  margin: 0 auto 82px;
+}
+.cards__title::after {
+  content: "";
+  position: absolute;
+  width: 85.5px;
+  height: 2px;
+  background: #FFF;
+  left: 112px;
+  top: 55px;
 }
