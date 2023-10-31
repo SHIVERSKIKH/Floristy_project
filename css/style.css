@@ -465,7 +465,37 @@ body {
   background: #3B181E;
   padding-bottom: 271px;
 }
-.cards__title {
+.cards__wrp, .suppliers__wrp {
+  max-width: 1176px;
+  width: 100%;
+  margin: 0 auto;
+}
+.cards__list {
+  max-width: 1176px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.cards__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 8px 8px 0px 0px;
+  background: #281014;
+  box-shadow: 0px 4px 50px 0px rgba(0, 0, 0, 0.40);
+}
+.cards__item-one, .cards__item-there {
+  padding-bottom: 70px;
+  max-width: 348px;
+  width: 100%;
+}
+.cards__item-two {
+  max-width: 420px;
+  width: 100%;
+  padding-bottom: 99px;
+}
+.cards__title, .suppliers__title {
   max-width: 302px;
   width: 100%;
   font-size: 30px;
@@ -475,7 +505,7 @@ body {
   position: relative;
   margin: 0 auto 82px;
 }
-.cards__title::after {
+.cards__title::after, .suppliers__title::after {
   content: "";
   position: absolute;
   width: 85.5px;
@@ -483,4 +513,137 @@ body {
   background: #FFF;
   left: 112px;
   top: 55px;
+}
+.cards__img-one, .cards__img-there {
+  max-width: 348px;
+  width: 100%;
+  min-height: 219px;
+  border-radius: 8px;
+  margin-bottom: 70px;
+}
+.cards__img-one {
+  background: url(../img/card1.png);
+}
+.cards__img-two {
+  max-width: 420px;
+  width: 100%;
+  min-height: 264px;
+  border-radius: 10px;
+  background: url(../img/card2.png);
+  margin-bottom: 99px;
+}
+.cards__img-there {
+  background: url(../img/card3.png);
+}
+.cards__img-one, .cards__img-two, .cards__img-there {
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.cards__txt {
+  max-width: 281px;
+  width: 100%;
+  text-align: center;
+  line-height: 27px;
+  font-size: 18px;
+  margin-bottom: 26.49px;
+}
+.cards__decor {
+  width: 306px;
+  height: 60px;
+  background: url(../img/decor.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  margin-bottom: 26px;
+}
+.cards__decor-two {
+  width: 380px;
+  height: 74px;
+}
+.cards__btn {
+  width: 134px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #FFF;
+  color: #FFF;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 13px;
+  letter-spacing: 1.8px;
+  text-transform: uppercase;
+}
+.suppliers {
+  background: #3B181E;
+  padding-bottom: 196px;
+}
+.suppliers__info-one {
+  max-width: 1176px;
+  width: 100%;
+  min-height: 122px;
+  margin-bottom: 34px;
+}
+.suppliers__title {
+  margin: 0 auto 90px;
+}
+.suppliers__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.suppliers__item {
+  max-width: 1176px;
+  width: 100%;
+}
+.suppliers__img-one { 
+  background: url(../img/suppliers1.jpg);
+}
+.suppliers__img-two {
+  background: url(../img/suppliers2.jpg);
+}
+.suppliers__img-there {
+  background: url(../img/suppliers3.jpg);
+}
+.suppliers__img-one, .suppliers__img-two, .suppliers__img-there {
+  max-width: 370px;
+  width: 100%;
+  min-height: 122px;
+}
+.suppliers__info-two {
+  margin-bottom: 34px;
+}
+.suppliers__img-four, .suppliers__img-five {
+  max-width: 571px;
+  width: 100%;
+  min-height: 190px;
+}
+.suppliers__img-four {
+  background: url(../img/suppliers4.jpg);
+}
+.suppliers__img-five {
+  background: url(../img/suppliers5.jpg);
+}
+.suppliers__img-six, .suppliers__img-seven, .suppliers__img-eight, .suppliers__img-nine {
+  max-width: 268px;
+  width: 100%;
+  min-height: 90px;
+}
+.suppliers__img-six {
+  background: url(../img/suppliers6.jpg);
+}
+.suppliers__img-seven {
+  background: url(../img/suppliers7.jpg);
+}
+.suppliers__img-eight {
+  background: url(../img/suppliers8.jpg);
+}
+.suppliers__img-nine {
+  background: url(../img/suppliers9.jpg);
+}
+.suppliers__img-one, .suppliers__img-two, .suppliers__img-there, .suppliers__img-four, .suppliers__img-five, .suppliers__img-six, .suppliers__img-seven, .suppliers__img-eight, .suppliers__img-nine {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
 }
