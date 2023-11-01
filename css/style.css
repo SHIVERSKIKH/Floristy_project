@@ -833,7 +833,7 @@ body {
   }
   .mobile-menu__burger span {
     top:18px;
-    left:10px;
+    left:0;
     position: absolute;
     width: 40px;
     height: 2px;
@@ -873,5 +873,48 @@ body {
     transition: all 0.5s ease;
     visibility: hidden;
   }
-
+  .header__nav {
+    margin-bottom: 135px;
+  }
+  .header__title {
+    font-size: 100px;
+  }
+  .catalog__card-wrp {
+    flex-wrap: wrap;
+  }
+  .promotion__wrp {
+    flex-direction: column;
+    gap:60px;
+  }
+  .promotion__info-title {
+    text-align: center;
+  }
+  .promotion__info-title::after{
+    left: 143px;
+  }
+  .composition__wrp {
+    flex-direction: column-reverse;
+  }
+  .composition__info-title {
+    text-align: center;
+    margin: 0 auto 56px;
+  }
+  .composition__info-title::after {
+    left: 219px;
+  }
+  .cards__list {
+    overflow-x: scroll;
+    gap: 30px;
+    padding-bottom: 35px;
+  }
+  .suppliers__list {
+    gap: 34px;
+  }
+  .footer__wrp {
+    max-width: 768px;
+  }
+  .footer__nav-link {
+    font-size: 14px;
+    line-height: 14px;
+  }
 }
