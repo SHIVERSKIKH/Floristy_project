@@ -469,6 +469,7 @@ body {
   max-width: 1176px;
   width: 100%;
   margin: 0 auto;
+  padding: 0 10px;
 }
 .cards__list {
   max-width: 1176px;
@@ -646,4 +647,47 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
+}
+.footer {
+  background: #3B181E;
+  padding:0 0 64px 0;
+}
+.footer__wrp {
+  max-width: 1815px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 10px;
+  border-top: 1px solid rgba(255, 255, 255, 0.20);
+}
+.footer__nav {
+  max-width: 994px;
+  width: 100%;
+  margin: 0 auto 30px;
+  padding: 0 10px;
+}
+.footer__nav-list {
+  max-width: 994px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 21px;
+  align-items: center;
+}
+.footer__nav-link {
+  color: rgba(255, 255, 255, 0.50);
+  font-size: 16px;
+  line-height: 18px;
+}
+.footer__social {
+  max-width: 250px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+.footer__social-list {
+  max-width: 250px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
