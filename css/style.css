@@ -738,10 +738,12 @@ body {
     min-height: 542px;
 }
 .promotion__info-img {
-  max-width: 610px;
+  max-width: 559px;
 }
 .promotion__info-img::after {
-  min-height: 362px;
+  min-height: 322px;
+  top: 18px;
+  left: 4px;
 }
   .composition__img::after {
     top: 28px;
@@ -882,9 +884,15 @@ body {
   .header__title {
     font-size: 100px;
   }
+  .catalog {
+    padding-bottom: 124px;
+  }
   .catalog__card-wrp {
     flex-wrap: wrap;
   }
+  .promotion {
+    padding-bottom: 99px;
+}
   .promotion__wrp {
     flex-direction: column;
     gap:60px;
@@ -895,6 +903,14 @@ body {
   .promotion__info-title::after{
     left: 143px;
   }
+  .promotion__info-img::after {
+    min-height: 334px;
+    top: 18px;
+    left: 17px;
+}
+.composition {
+  padding-bottom: 171px;
+}
   .composition__wrp {
     flex-direction: column-reverse;
   }
@@ -912,6 +928,9 @@ body {
   .composition__img::after {
     min-height: 518px;
 }
+.cards {
+  padding-bottom: 171px;
+}
   .cards__list {
     overflow-x: scroll;
     gap: 30px;
@@ -928,9 +947,9 @@ body {
     line-height: 14px;
   }
 }
-@media(max-width:340px) {
+@media(max-width:768px) {
   .center {
-    max-width: 320px;
+    max-width: 500px;
   }
   .header {
     padding: 55px 0 100px 0;
@@ -968,10 +987,11 @@ body {
   margin: 0 auto;
 }
 .promotion__info-img {
+  max-width: 400px;
   min-height: 154px;
 }
 .promotion__info-img::after {
-  min-height: 169px;
+  min-height: 237px;
   top: 18px;
   left: 6px;
 }
@@ -979,7 +999,7 @@ body {
   padding-bottom: 111px;
 }
 .composition__info-wrapper {
-  max-width: 320px;
+  max-width: 340px;
 }
 .composition__info-title {
   max-width: 305px;
@@ -1050,6 +1070,9 @@ body {
 .suppliers {
   padding-bottom: 43px;
 }
+.suppliers__wrp {
+  max-width: 340px;
+}
 .suppliers__list {
   flex-direction: column;
   margin-bottom: 30px;
@@ -1076,11 +1099,25 @@ body {
   min-height: 122px;
 }
 .footer__wrp {
-  max-width: 300px;
+  max-width: 500px;
 }
 .footer__nav-list {
-  max-width: 300px;
+  max-width: 500px;
   justify-content: center;
   flex-direction: column;
 }
+}
+@media(max-width:500px) {
+  .center {
+    max-width: 340px;
+  }
+  .promotion__info-img::after {
+    min-height: 190px;
+  }
+  .footer__wrp {
+    max-width: 300px;
+  }
+  .footer__nav-list {
+    max-width: 300px;
+  }
 }
