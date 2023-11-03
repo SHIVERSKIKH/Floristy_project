@@ -767,6 +767,9 @@ body {
   .cards__item-two {
     max-width: 374px;
   }
+  .suppliers__list {
+    gap: 20px;
+  }
   .footer__wrp {
     max-width: 1028px;
   }
@@ -866,7 +869,7 @@ body {
     z-index: 2;
     top:0;
     background: #281014;
-    display: flex;
+    display: none;
     justify-content: center;
     flex-direction: column;
     align-items: center;
@@ -1013,9 +1016,9 @@ body {
   top: 137px;
 }
 .composition__info-txt {
-  max-width: 299px;
-  font-size: 17px;
-  line-height: 18px;
+  max-width: 397px;
+  font-size: 18px;
+  line-height: 30.6px;
   text-align: center;
 }
 .composition__info-link {
@@ -1110,6 +1113,12 @@ body {
 @media(max-width:500px) {
   .center {
     max-width: 340px;
+  }
+  .header {
+    padding: 55px 0 140px 0;
+  }
+  .header__info {
+    margin-bottom: 39px;
   }
   .promotion__info-img::after {
     min-height: 190px;
