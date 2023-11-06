@@ -1,3 +1,6 @@
+@import url(animation-hover.css);
+
+
 *,
 h1,
 h2,
@@ -189,6 +192,10 @@ body {
   height: 13.418px;
   transform: rotate(-89.458deg);
   margin-left: 30px;
+}
+.arrow {
+  position: relative;
+  animation: moveArrow 1s infinite alternate;
 }
 .catalog {
   background: url(../img/catalog.png), #3B181E;

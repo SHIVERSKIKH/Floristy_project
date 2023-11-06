@@ -1,0 +1,40 @@
+:focus,
+:active,
+a:focus,
+a:active {
+	outline: none;
+}
+
+a,
+button {
+	cursor: pointer;
+}
+@media (hover: hover) {
+
+	a:hover,
+	button:hover,
+    label:hover {
+		opacity: .5;
+    
+	}
+
+	a:active,
+	button:active {
+		opacity: .3;
+	}
+    .header__btn:hover, .social__item-link:hover, .promotion__info-link:hover, .composition__info-link:hover {
+        transform: scale(1.1);
+    }
+}
+
+
+
+
+@keyframes moveArrow {
+    0% {
+      left: 0;
+    }
+    100% {
+      left: 100%;
+    }
+  }
