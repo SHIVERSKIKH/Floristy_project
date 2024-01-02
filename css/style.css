@@ -69,6 +69,7 @@ body {
   display: flex;
   justify-content: space-between;
   margin-bottom: 189px;
+  align-items: flex-end;
 }
 .mobile-menu {
   display: none;
@@ -741,6 +742,9 @@ body {
   .header__nav-item {
     font-size: 18px;
   }
+  .header__nav-tel a {
+    font-size: 18px;
+}
   .catalog__card-two > ul > li img {
     min-height: 542px;
 }
